@@ -29,7 +29,7 @@ class MaterializedQArray(QArray):
     def __check_init__(self):
 
         super().__check_init__()
-        
+
         # === ensure dims is compatible with the shape
         # for vectorized superoperators, we allow that the shape is the square
         # of the product of all dims
